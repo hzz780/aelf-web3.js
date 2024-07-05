@@ -13,7 +13,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Run tests and collect coverage
-        run: yarn run test
+        run: yarn run test:browser
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4
         with:
