@@ -30,7 +30,7 @@ if (process.env.RUNTIME_ENV === 'browser') {
   // eslint-disable-next-line global-require
   RequestLibraryXMLOnly = require('xmlhttprequest').XMLHttpRequest;
   // eslint-disable-next-line global-require
-  RequestLibrary = require('node-fetch').default;
+  RequestLibrary = require('node-fetch');
   isFetch = true;
 }
 
